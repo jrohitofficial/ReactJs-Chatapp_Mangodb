@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  user-select: none;
+}
+
+input:-webkit-autofill {
+  transition: 'color 9999s ease-out, background-color 9999s ease-out';
+  transition-delay: 9999s;
+}
+
+svg {
+  font-size: x-large;
+}
+input,
+textarea {
+  background: transparent;
+}
+
+a {
+  text-decoration: underline;
+  color: #0c4a6e;
+}
+.dark a {
+  color: #bae6fd;
+}
+
+@media {
+  .sm\:bg-spill-100 {
+    --tw-bg-opacity: 1;
+    background: linear-gradient(to right, #0094d8, #f5f5f5) !important;
+  }
+}
+
+/* .bg-white {
+  --tw-bg-opacity: 1;
+  background: linear-gradient(to right, #696969, #004ad4) !important;
+} */
